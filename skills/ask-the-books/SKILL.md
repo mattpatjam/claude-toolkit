@@ -8,7 +8,7 @@ argument-hint: [the question]
 
 Answers a business question by reading the actual book-framework files in the knowledge base and synthesizing a recommendation across them, with every point cited to the book it came from. Not a passage dump, not a book report — a direct answer to the question, grounded in what the books actually say.
 
-Knowledge base: `~/.claude/knowledge/books/<category-slug>/*.md` — one file per book, pure framework reference, 13 category shelves. Shelves fill in over time; only some have content at any given moment. This skill must work correctly no matter how many are built out.
+Knowledge base: `.claude/knowledge/books/<category-slug>/*.md` — one file per book, pure framework reference, 13 category shelves. Shelves fill in over time; only some have content at any given moment. This skill must work correctly no matter how many are built out.
 
 The static dashboard at `Automations/knowledge-dashboard/` is the browse/search tool. This skill is the reasoning layer on top of the same content.
 
@@ -22,7 +22,7 @@ The question is `$1` if passed as an argument, otherwise whatever Matthieu just 
 
 ## Step 2: Pick the Relevant Shelves
 
-The 13 category slugs under `~/.claude/knowledge/books/`:
+The 13 category slugs under `.claude/knowledge/books/`:
 
 | Slug | Covers |
 |---|---|
@@ -50,7 +50,7 @@ The table above is a rough map. For the current book-by-book contents of each sh
 
 ## Step 3: Read the Books
 
-For each relevant shelf, read all files in `~/.claude/knowledge/books/<slug>/`.
+For each relevant shelf, read all files in `.claude/knowledge/books/<slug>/`.
 
 - Read the actual files every time. Don't answer from memory of the books — the files are the distilled reference and they're what gets cited.
 - If a shelf's directory doesn't exist or is empty, note it and move on. Do NOT fail, and do NOT silently pretend it was covered.

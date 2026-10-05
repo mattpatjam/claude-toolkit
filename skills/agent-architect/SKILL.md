@@ -15,7 +15,7 @@ Design a multi-agent system for any workflow. Interactive, one question at a tim
 
 ## Before Starting
 
-Read `~/.claude/knowledge/agent-design/agent-design-reference.md` to load the full framework. The principles there govern every design decision in this session.
+Read `.claude/knowledge/agent-design/agent-design-reference.md` to load the full framework. The principles there govern every design decision in this session.
 
 ## The Process
 
@@ -203,4 +203,4 @@ After all nine phases, produce the Architecture Document. Save it to:
 - Verification is not optional. Every agent demonstrates completion.
 - After every run: identify one thing to improve.
 
-Full rationale: `~/.claude/knowledge/agent-design/agent-design-reference.md`
+Full rationale: `.claude/knowledge/agent-design/agent-design-reference.md`

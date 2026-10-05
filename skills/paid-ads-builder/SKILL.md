@@ -8,7 +8,7 @@ argument-hint: [client name]
 
 Guides a conversational paid-ads session and produces a complete campaign document — platform pick, targeting, 3 ad variations, landing page copy, and budget plan — for a specific client or project. Also handles the reverse case: if a campaign is already running and underperforming, diagnoses which part of the funnel is actually broken before rebuilding anything (Phase 0).
 
-Knowledge source: `~/.claude/knowledge/advertising/playbooks/paid-ads-playbook.md` (synthesized from Hormozi, Sabri Suby, and Russell Brunson). Read it at the start of the session — don't rely on memory of its contents, it gets resynced as new source material lands.
+Knowledge source: `.claude/knowledge/advertising/playbooks/paid-ads-playbook.md` (synthesized from Hormozi, Sabri Suby, and Russell Brunson). Read it at the start of the session — don't rely on memory of its contents, it gets resynced as new source material lands.
 
 **Output:** `clients/[client]/paid-ads.md`
 
@@ -189,4 +189,4 @@ Once all phases are confirmed, run `humanizer` on the ad copy and landing page s
 - This skill produces the campaign, not the media buy. Matthieu places the ad manually — no platform API calls, no auto-launch, no spend.
 - If `offer.md` doesn't exist and the client needs a full Grand Slam Offer built first, suggest running `offer-builder` before this skill — don't try to reconstruct a full offer from a thin Phase 1 answer.
 - The knowledge source (`playbooks/paid-ads-playbook.md`) is a living document — if it's been a while since this skill was last run, mention that resyncing the playbook with any new source material (new book chapters, new transcripts) before starting a big campaign is worth doing.
-- Source frameworks: *$100M Leads* (Alex Hormozi) — platform selection, targeting, ad anatomy, LTGP:CAC. Sabri Suby — High-Value Dobie, NEUE Wave, 9 Questions, Meta scaling hacks. Full reference: `~/.claude/knowledge/advertising/playbooks/paid-ads-playbook.md`
+- Source frameworks: *$100M Leads* (Alex Hormozi) — platform selection, targeting, ad anatomy, LTGP:CAC. Sabri Suby — High-Value Dobie, NEUE Wave, 9 Questions, Meta scaling hacks. Full reference: `.claude/knowledge/advertising/playbooks/paid-ads-playbook.md`

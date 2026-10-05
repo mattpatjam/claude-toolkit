@@ -213,7 +213,7 @@ Once all phases are confirmed, write the full document to the appropriate file.
 ---
 
 *Source frameworks: DotCom Secrets (Russell Brunson) — Sections 1–6. Expert Secrets (Russell Brunson) — Section 6: Creating Your Movement.*
-*Full references: `~/.claude/knowledge/Russel Brunson/dotcom-secrets-reference.md`, `~/.claude/knowledge/Russel Brunson/expert-secrets-reference.md`*
+*Full references: `.claude/knowledge/Russel Brunson/dotcom-secrets-reference.md`, `.claude/knowledge/Russel Brunson/expert-secrets-reference.md`*
 *Next step: run offer-builder to build the full service offer → `offer-builder [company/client]`*
 ```
 

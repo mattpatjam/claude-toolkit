@@ -17,14 +17,27 @@ This repo holds no client data, no financials, and no personal records. Capabili
 
 ## Install on a new machine
 
+Clone this repo and any workspace repo **as siblings**, then symlink. Do not touch `~/.claude/skills`: it already holds the GSD suite and other skills, and symlinking over it destroys them.
+
 ```bash
-git clone git@github.com:mattpatjam/claude-toolkit.git ~/claude-toolkit
-ln -s ~/claude-toolkit/skills    ~/.claude/skills
-ln -s ~/claude-toolkit/knowledge ~/.claude/knowledge
-ln -s ~/claude-toolkit/Rules     ~/.claude/Rules
+cd ~
+git clone git@github.com:mattpatjam/claude-toolkit.git
+git clone git@github.com:mattpatjam/bali-superhost.git
+
+cd bali-superhost        # symlinks are already committed, nothing to do
+ls .claude/skills        # should list 20 skills
 ```
 
-Symlinked at user level, so every skill and all knowledge is available in every project on that machine, whatever repo is open.
+The symlinks inside a workspace's `.claude/` are **relative** (`../../claude-toolkit/skills`), so they work on any machine and any username, as long as the two repos sit side by side. They are committed, so a fresh clone wires itself up.
+
+To add the toolkit to another workspace:
+
+```bash
+cd <workspace> && mkdir -p .claude && cd .claude
+ln -sfn ../../claude-toolkit/skills    skills
+ln -sfn ../../claude-toolkit/knowledge knowledge
+ln -sfn ../../claude-toolkit/Rules     Rules
+```
 
 ## Keeping it in sync
 
@@ -37,7 +50,7 @@ Build a skill on one machine, pull it on the other. Pull before you edit, or you
 
 ## Path conventions
 
-Skills reference the knowledge base as `~/.claude/knowledge/...` so the path resolves identically on every machine regardless of which workspace is open.
+Skills reference the knowledge base as `.claude/knowledge/...`, which resolves through the workspace's symlink into this repo. Same path on every machine, no absolute paths anywhere.
 
 Skills that produce client documents write to `clients/[client]/` relative to the **current workspace root**, not an absolute path. So `offer-builder` run inside `bali-superhost` writes to `bali-superhost/clients/...`, and run inside the personal workspace writes there instead. The skill does not need to know which workspace it is in.
 

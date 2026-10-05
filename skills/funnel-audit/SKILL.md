@@ -10,8 +10,8 @@ Runs a structured diagnostic session to identify where a developer client's sale
 
 Knowledge base:
 - `company/funnels.md` — OLC-specific funnel strategy and application context
-- `~/.claude/knowledge/Russel Brunson/dotcom-secrets-reference.md` — full framework definitions (Secret Formula, Value Ladder, 7 Phases, scripts, etc.)
-- `~/.claude/knowledge/advertising/playbooks/paid-ads-playbook.md` — for diagnosing landing-page mismatches and funnel breaks tied to paid traffic
+- `.claude/knowledge/Russel Brunson/dotcom-secrets-reference.md` — full framework definitions (Secret Formula, Value Ladder, 7 Phases, scripts, etc.)
+- `.claude/knowledge/advertising/playbooks/paid-ads-playbook.md` — for diagnosing landing-page mismatches and funnel breaks tied to paid traffic
 
 ---
 
