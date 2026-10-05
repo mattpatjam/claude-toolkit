@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-07-21",
+  "pillars_used": {
+    "Proof / Case Studies": 1,
+    "Educator": 0,
+    "Behind the Build": 0,
+    "Industry Perspective": 1
+  },
+  "themes_used": {
+    "AI Automation & Agency Ops": 1,
+    "Client Work & Results": 1,
+    "Cold Outreach & Sales Systems": 0,
+    "Founder Journey / Building Scale-Rise": 0
+  },
+  "pillar_performance": {
+    "Proof / Case Studies": { "avg_impressions": null, "avg_reactions": null, "post_count": 0 },
+    "Educator": { "avg_impressions": null, "avg_reactions": null, "post_count": 0 },
+    "Behind the Build": { "avg_impressions": null, "avg_reactions": null, "post_count": 0 },
+    "Industry Perspective": { "avg_impressions": 210, "avg_reactions": null, "post_count": 1 }
+  }
+}

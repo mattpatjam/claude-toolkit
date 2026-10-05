@@ -1,0 +1,31 @@
+{
+  "last_updated": "2026-09-23",
+  "pillars_used": {
+    "The Educator": 3,
+    "The Perspective": 13,
+    "The Human": 12,
+    "The Proof": 4,
+    "The Journey": 3
+  },
+  "themes_used": {
+    "Sales Techniques": 8,
+    "Negotiation & Deal Dynamics": 1,
+    "Bali Market": 9,
+    "Legal Framework": 4,
+    "Construction Due Diligence": 3,
+    "Lombok Market": 3,
+    "Industry Behavior": 2,
+    "Island Diversity": 1,
+    "Bali Lifestyle": 1,
+    "Personal Business Venture (off-rotation)": 1,
+    "OLC Method Case Study (off-rotation)": 1,
+    "Personal Identity (off-rotation)": 1
+  },
+  "pillar_performance": {
+    "The Educator": { "avg_impressions": 1696, "avg_reactions": 24, "post_count": 3 },
+    "The Perspective": { "avg_impressions": 5318, "avg_reactions": 170, "post_count": 12, "note": "skewed by one outlier post (34,009 impressions), median performance closer to 900-2000. Reaction avg (170) based on the 3 posts with reaction breakdown (25, 27, 458); most other posts have combined engagements only, not reaction breakdown. 08-13 (Lombok Market, villa oversupply contrarian take) added: 2000 impressions / 39 engagements. 08-18 (Legal Framework, Kura Kura/PFII bill signed into law) added: 1044 impressions / 9 engagements. 08-22 (Bali Market, $200K ocean view villa / buyer pain-point angle) added: 4602 impressions / 64 engagements. ~09-2026 (Lombok Market, Rafa Nadal Tennis Academy land price move, logged late from a 4-week gap in skill use) added: 230 impressions / 3 engagements, pulling the average down since it's a low-reach outlier." },
+    "The Human": { "avg_impressions": 1459, "avg_reactions": 31, "post_count": 11, "note": "reaction avg (31) based on the 2 posts with reaction breakdown (30, 31); most recent posts have combined engagements only, not reaction breakdown. 08-11 (Negotiation & Deal Dynamics, renamed from Sales Techniques, walked-away-buyer mystery hook) added: 2000 impressions / 41 engagements, one of the strongest hooks of the window. 08-19 (Construction Due Diligence / property management angle, Uluwatu management company withholding numbers) added: 1544 impressions / 6 engagements." },
+    "The Proof": { "avg_impressions": 1691, "avg_reactions": null, "post_count": 4, "note": "no reaction breakdowns available; 07-29 (Bali Market, Lombok land resale) had combined engagements of 11 on 436 impressions. 08-12 (Bali Market, Uluwatu seawall infrastructure) added: 937 impressions / 9 engagements. 08-27 (OLC Method Case Study off-rotation, Nirvana sales training result / 70% sold out) added: 5000 impressions / 128 engagements, best-performing Proof post and best post of this window." },
+    "The Journey": { "avg_impressions": 2921, "avg_reactions": null, "post_count": 3, "note": "08-06 (Bali Lifestyle, personal/family video call comparison) had combined engagements of 53 on 3000 impressions. 08-20 (Personal Business Venture off-rotation, Lembongan 30-year lease signing) added: 5712 impressions / 136 engagements, best-performing post of the window. ~09-2026 (Personal Identity off-rotation, Switzerland/Bali dual-identity reflection, logged late from a 4-week gap in skill use) added: 52 impressions / 1 engagement, a low-reach outlier that pulls the average down." }
+  }
+}
