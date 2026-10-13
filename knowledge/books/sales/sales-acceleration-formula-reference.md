@@ -288,6 +288,45 @@ The received wisdom Roberge starts from is "don't promote your best salespeople 
 
 **Focus on leadership skills, rather than general sales management skills, when developing future managers internally.** The reframe came from listing the skills actually needed — coaching, negative feedback delivery, team motivation, conflict management — and realizing those are leadership skills, not sales management skills. The result was a **12-week sales leadership course**, and the recommendation is to focus on the skill categories rather than the specific resources: (1) Defining and Developing Your Leadership Style; (2) Providing Positive and Negative Feedback to Subordinates; (3) Successful Mentoring and Coaching; (4) Managing Conflict (with direct reports, with peers, with your boss); (5) Managing through Change; (6) Building and Developing Your Team; (7) Active Listening.
 
+**The assigned resources, per category.** Roberge's own framing on these (book pp. 99-100): the recommendation is to focus on the skill categories rather than the resource guides themselves, "though I have included them for context."
+
+*1. Defining and Developing Your Leadership Style*
+- "Discovering Your Authentic Leadership" (HBR article, George, Sims, McLean & Mayer) — orig. link `aawccnatl.org/assets/authentic leadership.pdf`
+- *Building an Authentic Leadership Image* (CCL)
+- *Twelve O'Clock High* (1949 film, Gregory Peck) — note this is a film, not a reading
+- *Forceful Leadership and Enabling Leadership: You Can Do Both* (CCL)
+- *Ongoing Feedback: How to Get It, How to Use It* (CCL)
+
+*2. Providing Positive and Negative Feedback to Subordinates*
+- *Feedback That Works: How to Build and Deliver Your Message* (CCL, Sloan R. Weitzel)
+- *Giving Feedback to Subordinates* (CCL)
+
+*3. Successful Mentoring and Coaching*
+- *Sales Coaching: Making the Great Leap from Sales Manager to Sales Coach* (Linda Richardson)
+- *Seven Keys to Successful Mentoring* (CCL)
+- *The One Minute Manager* (Kenneth Blanchard)
+- *Succeed: How We Can Reach Our Goals* (Heidi Grant Halvorson)
+
+*4. Managing Conflict*
+- *Managing Conflict with Direct Reports* (CCL)
+- *Managing Conflict with Peers* (CCL, Talula Cartwright)
+- *Managing Conflict with Your Boss* (CCL)
+
+*5. Managing through Change*
+- *Adaptability: Responding Effectively to Change* (CCL)
+
+*6. Building and Developing Your Team*
+- *Good to Great*, Chapter 3, "First Who... Then What" (Jim Collins)
+- *Raising Sensitive Issues in a Team* (CCL)
+- *Building Your Team's Morale, Pride, and Spirit* (CCL)
+
+*7. Active Listening*
+- *Active Listening: Improve Your Ability to Listen and Lead* (CCL)
+
+**Link status, checked 2026-10-09.** Every `solutions.ccl.org` deep link in the book is dead: all of them catch-all redirect to `shop.ccl.org`, which returns HTTP 200, so a naive link check reports them as working when the specific guide is gone. The `aawccnatl.org` PDF returns 403. The Amazon product links still resolve.
+
+The CCL items are not lost, they are the **"Ideas Into Action Guidebooks"** series, published as short printed guidebooks with ISBNs and named authors, still available secondhand. Search the series name plus the title rather than the original URL.
+
 **Develop your leadership bench by using a formal leadership curriculum for your salespeople who earn the opportunity.** Each week ran in three steps: (1) the candidate completes a **preparation document** on that week's topic *before* any reading — for conflict management, representative conflict scenarios with the candidate explaining how he would handle each — which tests natural instincts before exposure to best practices; (2) the candidate completes the assigned reading, connecting general best practices to scenarios he will actually face; (3) the candidate meets with Roberge (later a full-time leadership trainer) to **role-play the scenarios in person**, which evaluates how well he absorbed and applied the material. Sample role-play prompts, issued in advance: *Providing negative feedback effectively* — you just shadowed a demo that was awful, the salesperson vomited product features the whole time, showed inferior product knowledge, and asked no qualifying questions. *Managing conflict with direct reports* — one of your salespeople signed two customers who both cancelled almost immediately, both commissions were clawed back, expectation-setting issues clearly occurred in both sales processes, but the salesperson is aggressively blaming the post-sale account manager for mismanaging onboarding. *Building team spirit and pride* — the team has missed goal for the second quarter running, fewer than 50 percent of your salespeople are making quota, and you have heard some are interviewing elsewhere. *Active listening* — a salesperson grabs you in the hallway asking to change teams, and you have told him you will meet immediately after your current meeting.
 
 **Prerequisites for leadership consideration.** Tenure grants nothing; entry is earned on three evaluated areas. *Performance* is easiest — "exceed the sales targets for six months in a row"; being the top performer is unnecessary but consistent goal attainment is a must. *Sales skills* means **well-roundedness**, and this is where the superpowers finding bites: an activity hound who is mediocre at presentation skills could never develop a rep struggling with discovery calls, and would only succeed as a manager by finding eight salespeople whose strengths exactly matched his own, which is near-impossible and does not scale. Leaders need a well-rounded grasp of the whole methodology so they can diagnose a specific issue and customize a plan for it. The assessment reuses the new-hire skill certifications with **a more advanced level created for each skill area**, and the candidate must score at or above the advanced level on all of them. *Leadership potential* is demonstrated through contribution to the team while still an individual contributor: insightful questions and comments in team meetings, proactively mentoring a new salesperson on the floor, owning a class in new-hire training, or helping administer new skill training for the existing team.
